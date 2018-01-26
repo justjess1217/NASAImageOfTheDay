@@ -1,0 +1,11 @@
+framework module CBNetworking {
+  umbrella header "CBNetworking.h"
+
+  export *
+  module * { export * }
+}
+
+module CBNetworking.Swift {
+    header "CBNetworking-Swift.h"
+    requires objc
+}
